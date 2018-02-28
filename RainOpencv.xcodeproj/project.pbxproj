@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5055471CDDC316EA986790 /* libPods-RainOpencvTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9506A1E5C1627451DEAB5F11 /* libPods-RainOpencvTests.a */; };
+		35FF33B253BA9724AC9D0C48 /* libPods-RainOpencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8BCAF9FCB2F7A2BBEAFDF /* libPods-RainOpencv.a */; };
 		AEB001B72046C6D600D6558F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB001B62046C6D600D6558F /* AppDelegate.m */; };
-		AEB001BA2046C6D600D6558F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB001B92046C6D600D6558F /* ViewController.m */; };
+		AEB001BA2046C6D600D6558F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEB001B92046C6D600D6558F /* ViewController.mm */; };
 		AEB001BD2046C6D600D6558F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB001BB2046C6D600D6558F /* Main.storyboard */; };
 		AEB001BF2046C6D600D6558F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB001BE2046C6D600D6558F /* Assets.xcassets */; };
 		AEB001C22046C6D600D6558F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB001C02046C6D600D6558F /* LaunchScreen.storyboard */; };
 		AEB001C52046C6D600D6558F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB001C42046C6D600D6558F /* main.m */; };
 		AEB001CF2046C6D600D6558F /* RainOpencvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB001CE2046C6D600D6558F /* RainOpencvTests.m */; };
 		AEB001DA2046C6D600D6558F /* RainOpencvUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB001D92046C6D600D6558F /* RainOpencvUITests.m */; };
+		B323CEFC20ADAD8D66EB539B /* libPods-RainOpencvUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 483B245F564129654F3C61DE /* libPods-RainOpencvUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F8BCAF9FCB2F7A2BBEAFDF /* libPods-RainOpencv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainOpencv.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		241681F636D7D955D6710D7A /* Pods-RainOpencvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOpencvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainOpencvTests/Pods-RainOpencvTests.release.xcconfig"; sourceTree = "<group>"; };
+		365D46D33A5555B083601E01 /* Pods-RainOpencv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOpencv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainOpencv/Pods-RainOpencv.debug.xcconfig"; sourceTree = "<group>"; };
+		483B245F564129654F3C61DE /* libPods-RainOpencvUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainOpencvUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CAE8626C10984C73D4B881 /* Pods-RainOpencvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOpencvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainOpencvTests/Pods-RainOpencvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9506A1E5C1627451DEAB5F11 /* libPods-RainOpencvTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainOpencvTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9838FA016B34B6440DB20D2 /* Pods-RainOpencv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOpencv.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainOpencv/Pods-RainOpencv.release.xcconfig"; sourceTree = "<group>"; };
 		AEB001B22046C6D600D6558F /* RainOpencv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainOpencv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB001B52046C6D600D6558F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEB001B62046C6D600D6558F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AEB001B82046C6D600D6558F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEB001B92046C6D600D6558F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEB001B92046C6D600D6558F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		AEB001BC2046C6D600D6558F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEB001BE2046C6D600D6558F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB001C12046C6D600D6558F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		AEB001D52046C6D600D6558F /* RainOpencvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainOpencvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB001D92046C6D600D6558F /* RainOpencvUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainOpencvUITests.m; sourceTree = "<group>"; };
 		AEB001DB2046C6D600D6558F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8667FCEFE1B568AAB6F2BF9 /* Pods-RainOpencvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOpencvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainOpencvUITests/Pods-RainOpencvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4351D289910A21007824ABF /* Pods-RainOpencvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOpencvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainOpencvUITests/Pods-RainOpencvUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FF33B253BA9724AC9D0C48 /* libPods-RainOpencv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5055471CDDC316EA986790 /* libPods-RainOpencvTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B323CEFC20ADAD8D66EB539B /* libPods-RainOpencvUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6835E8609711D73FB275362B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F8BCAF9FCB2F7A2BBEAFDF /* libPods-RainOpencv.a */,
+				9506A1E5C1627451DEAB5F11 /* libPods-RainOpencvTests.a */,
+				483B245F564129654F3C61DE /* libPods-RainOpencvUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEB001A92046C6D600D6558F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				AEB001CD2046C6D600D6558F /* RainOpencvTests */,
 				AEB001D82046C6D600D6558F /* RainOpencvUITests */,
 				AEB001B32046C6D600D6558F /* Products */,
+				C6F1C80437306B23194A8CAF /* Pods */,
+				6835E8609711D73FB275362B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +131,7 @@
 				AEB001B52046C6D600D6558F /* AppDelegate.h */,
 				AEB001B62046C6D600D6558F /* AppDelegate.m */,
 				AEB001B82046C6D600D6558F /* ViewController.h */,
-				AEB001B92046C6D600D6558F /* ViewController.m */,
+				AEB001B92046C6D600D6558F /* ViewController.mm */,
 				AEB001BB2046C6D600D6558F /* Main.storyboard */,
 				AEB001BE2046C6D600D6558F /* Assets.xcassets */,
 				AEB001C02046C6D600D6558F /* LaunchScreen.storyboard */,
@@ -132,6 +159,19 @@
 			path = RainOpencvUITests;
 			sourceTree = "<group>";
 		};
+		C6F1C80437306B23194A8CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365D46D33A5555B083601E01 /* Pods-RainOpencv.debug.xcconfig */,
+				A9838FA016B34B6440DB20D2 /* Pods-RainOpencv.release.xcconfig */,
+				76CAE8626C10984C73D4B881 /* Pods-RainOpencvTests.debug.xcconfig */,
+				241681F636D7D955D6710D7A /* Pods-RainOpencvTests.release.xcconfig */,
+				B8667FCEFE1B568AAB6F2BF9 /* Pods-RainOpencvUITests.debug.xcconfig */,
+				C4351D289910A21007824ABF /* Pods-RainOpencvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB001DE2046C6D600D6558F /* Build configuration list for PBXNativeTarget "RainOpencv" */;
 			buildPhases = (
+				CE154DCC817C19364AB4F6A3 /* [CP] Check Pods Manifest.lock */,
 				AEB001AE2046C6D600D6558F /* Sources */,
 				AEB001AF2046C6D600D6558F /* Frameworks */,
 				AEB001B02046C6D600D6558F /* Resources */,
+				DBC3E84E222B6333AF76E9B2 /* [CP] Embed Pods Frameworks */,
+				9275AC85C833B7A7718E2369 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB001E12046C6D600D6558F /* Build configuration list for PBXNativeTarget "RainOpencvTests" */;
 			buildPhases = (
+				F0F4F38922233236FD1D8C09 /* [CP] Check Pods Manifest.lock */,
 				AEB001C62046C6D600D6558F /* Sources */,
 				AEB001C72046C6D600D6558F /* Frameworks */,
 				AEB001C82046C6D600D6558F /* Resources */,
+				5D3E7579C088E4187088547F /* [CP] Embed Pods Frameworks */,
+				29037D01FC9E050578120ECE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB001E42046C6D600D6558F /* Build configuration list for PBXNativeTarget "RainOpencvUITests" */;
 			buildPhases = (
+				55213F0E6C754C8CA5FBCB28 /* [CP] Check Pods Manifest.lock */,
 				AEB001D12046C6D600D6558F /* Sources */,
 				AEB001D22046C6D600D6558F /* Frameworks */,
 				AEB001D32046C6D600D6558F /* Resources */,
+				DC20D78ABFB1FF1BBBB5B09A /* [CP] Embed Pods Frameworks */,
+				2E72379AEA7DC3A4A737A003 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +248,7 @@
 				TargetAttributes = {
 					AEB001B12046C6D600D6558F = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					AEB001C92046C6D600D6558F = {
 						CreatedOnToolsVersion = 9.0;
@@ -260,12 +309,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29037D01FC9E050578120ECE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainOpencvTests/Pods-RainOpencvTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E72379AEA7DC3A4A737A003 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainOpencvUITests/Pods-RainOpencvUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55213F0E6C754C8CA5FBCB28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainOpencvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3E7579C088E4187088547F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainOpencvTests/Pods-RainOpencvTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9275AC85C833B7A7718E2369 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainOpencv/Pods-RainOpencv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE154DCC817C19364AB4F6A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainOpencv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC3E84E222B6333AF76E9B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainOpencv/Pods-RainOpencv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC20D78ABFB1FF1BBBB5B09A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainOpencvUITests/Pods-RainOpencvUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F4F38922233236FD1D8C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainOpencvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEB001AE2046C6D600D6558F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB001BA2046C6D600D6558F /* ViewController.m in Sources */,
+				AEB001BA2046C6D600D6558F /* ViewController.mm in Sources */,
 				AEB001C52046C6D600D6558F /* main.m in Sources */,
 				AEB001B72046C6D600D6558F /* AppDelegate.m in Sources */,
 			);
@@ -428,32 +624,40 @@
 		};
 		AEB001DF2046C6D600D6558F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365D46D33A5555B083601E01 /* Pods-RainOpencv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = RainOpencv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rain.RainOpencv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37b78e25-3b21-4b47-8563-a9f9467efc39";
+				PROVISIONING_PROFILE_SPECIFIER = "AppStoreDevelopment *";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AEB001E02046C6D600D6558F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9838FA016B34B6440DB20D2 /* Pods-RainOpencv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RainOpencv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rain.RainOpencv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		AEB001E22046C6D600D6558F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CAE8626C10984C73D4B881 /* Pods-RainOpencvTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +672,7 @@
 		};
 		AEB001E32046C6D600D6558F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241681F636D7D955D6710D7A /* Pods-RainOpencvTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +687,7 @@
 		};
 		AEB001E52046C6D600D6558F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8667FCEFE1B568AAB6F2BF9 /* Pods-RainOpencvUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RainOpencvUITests/Info.plist;
@@ -495,6 +701,7 @@
 		};
 		AEB001E62046C6D600D6558F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4351D289910A21007824ABF /* Pods-RainOpencvUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RainOpencvUITests/Info.plist;
